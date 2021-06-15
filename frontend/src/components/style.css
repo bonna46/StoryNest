@@ -1,0 +1,113 @@
+.ui {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(112, 3, 8);
+
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    
+    text-align: center;
+    padding: 14px 16px;
+   text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: white;
+    color: crimson;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+  .li-right {
+      color:white;
+      padding: 14px 16px;
+      text-align: center;
+    float: right;
+  }
+  /*
+
+  .btn-login {
+    background-color: rgb(112, 3, 8);
+    margin: 0px;
+    border: 0px;
+      color:  white;
+      
+  }
+
+  .btn-login:hover{
+      background-color: white;
+      border: 0px;
+      color: crimson;
+  }
+*/
+  .bodystyle  {
+    position: "relative";
+    margin: "10%";
+    text-align: center;
+    color: rgb(168, 12, 43);
+   
+  }
+  
+  .form-border {
+    background-color: rgb(243, 215, 215);
+    padding: 5px;
+    text-align: left;
+    border-style: solid;
+    border-width: 1px;
+    border-left-width: 10px;
+    border-color: crimson;
+    margin-bottom: 10px;
+  }
+  .form-border:hover{
+    background-color: rgb(228, 137, 142);
+    border-color: black;
+  }
+  .form-title {
+    font-size: 26px;
+    font-weight: bold;
+padding: 10px;
+   font-style: bold;
+    color: crimson;
+  }
+  .form-title:hover{
+   color: black;
+  }
+
+  .form-author {
+    font-size: small;
+    padding-left: 10px;
+    font-style: oblique;
+    color:rgb(117, 19, 84);
+    border-bottom: 1px solid ;
+    
+  }
+  .form-author:hover{
+    color: white;
+   }
+  .form-body {
+    padding:10px;
+    font-size: medium;
+    color: black;
+  }
+  
+  .form-body:hover{
+    color: white;
+   }
+
+   .ui-update-delete {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+  }
