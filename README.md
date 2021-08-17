@@ -3,7 +3,7 @@
 1. Clone this repository
 2. Run ```npm install```
 ### Run Using NPM
-1. In one terminal, go to backend directory and run ```npm run server```
+1. In one terminal, go to backend directory and run ```node server.js```
 2. In other terminal, go to frontend directory and run ```npm start```
 
 ### Run Using Docker
