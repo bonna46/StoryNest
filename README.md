@@ -1,4 +1,4 @@
-# MyStory
+# StoryNest
 ## HOW TO RUN
 1. Clone this repository
 2. Open terminal, go to backend folder, run ```npm install .```
@@ -23,7 +23,7 @@ Resources are managed by REST API
 
 ### API Endpoints for User
 
-#### 1.Register in MyStory
+#### 1.Register in StoryNest
 
 ```
 POST http://localhost:5000/api/register
@@ -34,7 +34,7 @@ POST http://localhost:5000/api/register
 }
 ```
 
-#### 2.Login in MyStory
+#### 2.Login in StoryNest
 ```
 POST http://localhost:5000/api/login
 
