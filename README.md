@@ -1,5 +1,16 @@
 # StoryNest
-## HOW TO RUN
+StoryNest is a full-stack web application that allows users to register, log in, and share personal stories. It features: 
+ - Secure authentication, 
+ - End-to-end CRUD operations for story management and 
+ - Docker container for consistent deployment across environments, enhance portability, and support horizontal scaling.
+#### 🎲 Technologies Used: ExpressJS, Mongoose, React, Bootstrap, Docker
+
+
+## 📦 INSTALLATION
+### Prerequisites
+Node.js and npm installed on your machine.
+
+## 🧪 HOW TO RUN
 1. Clone this repository
 2. Open terminal, go to backend folder, run ```npm install .```
 3. Open terminal, go to frontend folder, run ```npm install .```
@@ -8,13 +19,15 @@
 2. In other terminal, go to frontend directory and run ```npm start```
 
 ### Run Using Docker
+Ensure you have Docker installed on your machine.
 1. Run ```docker-compose up --build```
 
-## BACKEND
+## :nut_and_bolt: BACKEND
 Technologies Used
 1. ExpressJS (NodeJS web application framework)
 2. Mongoose (ODM library for MongoDB and NodeJS)
-## API Documentation
+
+## 📚 API Documentation
 
 Resources are managed by REST API
 
@@ -97,7 +110,7 @@ PUT http://localhost:5000/api/stories/{story_id}
 DELETE http://localhost:5000/api/stories/{story_id}
 ```
 
-## FRONTEND
+## :arrow_forward: FRONTEND
 Technologies Used
 
 1. React (Frontend JS library)
